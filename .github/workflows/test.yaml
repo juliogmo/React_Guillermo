@@ -1,6 +1,7 @@
-name: Hola mundo
+name: Hola Mundo
 
 on: [push]
+
 
 jobs:
   uno:
@@ -8,4 +9,4 @@ jobs:
 
     steps:
     - name: Mensaje
-      run: echo "hola mundo"
+      run: echo "Hola Mundo"
