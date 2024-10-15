@@ -8,4 +8,4 @@ jobs:
 
     steps:
     - name: Mensaje
-      run: echo "Hola Mundo"
+      run: echo "hola mundo"
