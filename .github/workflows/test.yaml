@@ -18,7 +18,9 @@ jobs:
        run: |
             echo "Hola mundo" >> hola.txt
     -  name: Read File #Lee
-       run: cat hola.txt
+       run: |
+         cat hola.txt
+         ls -al
 
   dos:
     runs-on: ubuntu-latest
