@@ -31,7 +31,7 @@ jobs:
     - name: Directorio
       run: ls -al
 
-      -name: Instalar
+    - name: Instalar
       run: |
         cd .github/workflows
         ls -al
